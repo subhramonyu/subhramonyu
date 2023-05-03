@@ -13,7 +13,7 @@ Hi, I'm [Subhra Manyu Das](https://www.smdas.com/), a backend java and python de
  
  <br>
 <h3>Profile Views</h3>
- <p align="left"> <img src="https://profile-counter.glitch.me/desphixs/count.svg" alt="desphixs" /> </p>
+ <p align="left"> <img src="https://profile-counter.glitch.me/subhramonyu/count.svg" alt="subhramonyu" /> </p>
  
  </br>
 
