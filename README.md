@@ -9,7 +9,7 @@ Hi, I'm [Subhra Manyu Das](https://www.smdas.com/), a backend java and python de
 <img align="right" width="450px" alt="GIF" src="https://i.pinimg.com/originals/f1/e7/34/f1e734f9cade86fe737a9aa404ad5677.gif" />
 
  - 📫 How to reach me: [subhramonyu.das@gmail.com](mailto:subhramonyu.das@gmail.com)
- - 🔗 My website: [https://www.smdas.com/](https://www.smdas.com/)
+ - 🔗 My website: [http://subhramonyu.pythonanywhere.com](http://subhramonyu.pythonanywhere.com)
  
  <br>
 <h3>Profile Views</h3>
