@@ -25,7 +25,7 @@ Hi, I'm [Subhra Manyu Das](https://www.smdas.com/), a backend java and python de
 </br>
 
  - 📫 How to reach me: [subhramonyu.das@gmail.com](mailto:subhramonyu.das@gmail.com)
- - 🔗 My website: [http://subhramonyu.pythonanywhere.com](http://subhramonyu.pythonanywhere.com)
+ - 🔗 My website: [https://subhramonyu.github.io](https://subhramonyu.github.io)
  
  <br>
 <h3>Profile Views</h3>
