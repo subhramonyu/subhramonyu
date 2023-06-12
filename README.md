@@ -44,6 +44,15 @@ Hi, I'm [Subhra Manyu Das](https://www.smdas.com/), a backend java and python de
 ![Metrics](/github-metrics.svg)
 
 
-<a href="https://www.linkedin.com/in/subhramonyu/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?&style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+<h2>📬 Contact</h2>
+<br>
+If you want to contact me, you can reach me through social handles.
 
-![Twitter Follow](https://img.shields.io/twitter/follow/SubhramonyuDas?style=social)
+<a href="https://twitter.com/DasSubhramonyu"><img src="https://seeklogo.com/images/T/twitter-icon-circle-blue-logo-0902F48837-seeklogo.com.png" width="25"></img></a>&nbsp;&nbsp; <a href="https://www.linkedin.com/in/subhramonyu/"><img src="https://www.felberpr.com/wp-content/uploads/linkedin-logo.png" width="25"></img></a>
+
+
+© 2022 Subhramonyu Das
+
+</br>
+
+[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/built-by-developers.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/built-with-swag.svg)](https://forthebadge.com)
