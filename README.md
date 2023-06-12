@@ -1,5 +1,8 @@
-<h1><img src="https://emojis.slackmojis.com/emojis/images/1531849430/4246/blob-sunglasses.gif?1531849430" width="30"/> Hey, nice to see you.</h1>
+<h1><img src="https://emojis.slackmojis.com/emojis/images/1531849430/4246/blob-sunglasses.gif?1531849430" width="50"/> 
+ <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&pause=1000&color=E7F72A&width=446&lines=Hi+There%2C+Nice+to+see+you" alt="Typing SVG" /></a>
+</h1>
 <br>
+
 
 Hi, I'm [Subhra Manyu Das](https://www.smdas.com/), a backend java and python developer 👨🏻‍💻 from <b>India</b>. I'm a Results-oriented  developer with 7+ years experience developing, testing, and maintaining enterprise applications. Designed and developed over 13 advanced applications for various use cases and functional requirements for clients ranging from individuals and small businesses all the way to large enterprise corporations. 
 
