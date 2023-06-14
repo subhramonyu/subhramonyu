@@ -42,7 +42,7 @@ Currently working as a backend java and python developer 👨🏻‍💻 from <b
  - 📫 How to reach me: [subhramonyu.das@gmail.com](mailto:subhramonyu.das@gmail.com)
  - 🔗 My website: [https://subhramonyu.github.io](https://subhramonyu.github.io)
    
-<a href="https://twitter.com/DasSubhramonyu"><img src="https://seeklogo.com/images/T/twitter-icon-circle-blue-logo-0902F48837-seeklogo.com.png" width="25"></img></a>&nbsp;&nbsp; <a href="https://www.linkedin.com/in/subhramonyu/"><img src="https://www.felberpr.com/wp-content/uploads/linkedin-logo.png" width="25"></img></a>
+<a href="https://twitter.com/SubhramonyuDas"><img src="https://seeklogo.com/images/T/twitter-icon-circle-blue-logo-0902F48837-seeklogo.com.png" width="25"></img></a>&nbsp;&nbsp; <a href="https://www.linkedin.com/in/subhramonyu-das-3123991b8/"><img src="https://www.felberpr.com/wp-content/uploads/linkedin-logo.png" width="25"></img></a>
 
  <br>
 <h3>Profile Views</h3>
