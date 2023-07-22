@@ -3,6 +3,7 @@
 </h1>
 <br>
 
+
 ## I'm a Tech Enthusiast!!</b>&nbsp;<img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Designer.gif" height="30px">
 
 Currently working as a backend java and python developer 👨🏻‍💻 from <b>India</b>. I'm a Results-oriented  developer with 7+ years experience developing, testing, and maintaining enterprise applications. Designed and developed over 13 advanced applications for various use cases and functional requirements for clients ranging from individuals and small businesses all the way to large enterprise corporations. 
