@@ -6,7 +6,8 @@
 
 ## I'm a Tech Enthusiast!!</b>&nbsp;<img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Designer.gif" height="30px">
 
-Currently I am a student in 3rd year from computer science from Orissa engineering college .I love code everything.
+Currently I am a student in 3rd year from computer science from Orissa engineering college .  
+I love to code everything.
 
 
  ## Languages and Tools: <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Mario_Hello_Big.gif" height="30px">
