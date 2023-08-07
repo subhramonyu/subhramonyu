@@ -6,7 +6,7 @@
 
 ## I'm a Tech Enthusiast!!</b>&nbsp;<img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Designer.gif" height="30px">
 
-Currently working as a backend java and python developer 👨🏻‍💻 from <b>India</b>. I'm a Results-oriented  developer with 7+ years experience developing, testing, and maintaining enterprise applications. Designed and developed over 13 advanced applications for various use cases and functional requirements for clients ranging from individuals and small businesses all the way to large enterprise corporations. 
+Currently I am a student in 3rd year from computer science from Orissa engineering college .I love code everything.
 
 
  ## Languages and Tools: <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Mario_Hello_Big.gif" height="30px">
@@ -43,7 +43,7 @@ Currently working as a backend java and python developer 👨🏻‍💻 from <b
  - 📫 How to reach me: [subhramonyu.das@gmail.com](mailto:subhramonyu.das@gmail.com)
  - 🔗 My website: [https://subhramonyu.github.io](https://subhramonyu.github.io)
    
-<a href="https://twitter.com/SubhramonyuDas"><img src="https://seeklogo.com/images/T/twitter-icon-circle-blue-logo-0902F48837-seeklogo.com.png" width="25"></img></a>&nbsp;&nbsp; <a href="https://www.linkedin.com/in/subhramonyu-das-3123991b8/"><img src="https://www.felberpr.com/wp-content/uploads/linkedin-logo.png" width="25"></img></a>
+<a href="https://twitter.com/SubhramonyuDas"><img src="https://seeklogo.com/images/T/twitter-icon-circle-blue-logo-0902F48837-seeklogo.com.png" width="25"></img></a>&nbsp;&nbsp;
 
  <br>
 <h3>Profile Views</h3>
