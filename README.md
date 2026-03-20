@@ -74,13 +74,6 @@ I’ve contributed to **13+** production-grade applications across different dom
   <img height="165" src="https://streak-stats.demolab.com/?user=SubhraFLuke&theme=dracula&hide_border=true" alt="Contribution streak — SubhraFLuke" />
 </p>
 
-**[@Subhra-Das_fortive](https://github.com/Subhra-Das_fortive)**
-
-<p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=Subhra-Das_fortive&show_icons=true&theme=cobalt&hide_border=true&title_color=79C0FF&icon_color=58A6FF" alt="GitHub stats — Subhra-Das_fortive" />
-  <img height="165" src="https://streak-stats.demolab.com/?user=Subhra-Das_fortive&theme=cobalt&hide_border=true" alt="Contribution streak — Subhra-Das_fortive" />
-</p>
-
 </details>
 
 <details>

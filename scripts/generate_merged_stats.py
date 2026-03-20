@@ -16,7 +16,6 @@ DEFAULT_USERS = (
     "subhramonyu",
     "privatefnsventures-maker",
     "SubhraFLuke",
-    "Subhra-Das_fortive",
 )
 
 
