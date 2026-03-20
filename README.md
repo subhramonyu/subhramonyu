@@ -1,58 +1,60 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=28&duration=3000&pause=1200&color=58A6FF&center=true&vCenter=true&width=600&lines=Hi%2C+I'm+Subhramonyu+%F0%9F%91%8B;Backend+engineer+%C2%B7+India;Building+things+that+scale+%28usually%29;Always+learning+%E2%80%94+and+happy+to+share" alt="Animated greeting" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=26&duration=2800&pause=1000&color=58A6FF&center=true&vCenter=true&multiline=true&width=720&height=150&lines=Hi%2C+I%27m+Subhramonyu;Backend+engineer+%C2%B7+India+%C2%B7+Java+%26+Python;I+build+APIs+and+systems+that+stay+up+after+3+a.m.;Always+learning+%E2%80%94+happy+to+share+what+I+figure+out" alt="Introduction — Subhramonyu, backend engineer" />
 
-**Java · Python · APIs · Systems that don’t fall over at 3 a.m.**
+**Java · Python · APIs · reliability-minded backend work**
 
-<sub>*If the code works on the first try, I’m probably still dreaming.*</sub>
+<sub><em>If it worked on the first try, I’d check whether I’m awake.</em></sub>
 
 </div>
 
 ---
 
-### The short version
+## Overview
 
-I’m a backend-focused developer with **7+ years** shipping and hardening **enterprise apps** in **Java** and **Python** — from small teams to large orgs. I care about **clear boundaries**, **boring reliability**, and **code the next human can actually read**.
+Backend engineer with **7+ years** delivering and operating **enterprise applications** in **Java** and **Python**, from lean teams to large organizations. I focus on **clear service boundaries**, **predictable reliability**, and **maintainable code** — the kind the next engineer can extend without a séance.
 
-### The slightly longer version (with enthusiasm)
+## How I work
 
-I’ve helped design and deliver **13+** serious applications across different domains — the kind where “it works on my machine” is not a valid release strategy. I like **teaching by doing**: pairing, docs, PR comments that explain *why*, and turning weird production stories into lessons so nobody has to learn them twice.
+I’ve contributed to **13+** production-grade applications across different domains — environments where *“works on my machine”* isn’t a release criterion. I’m happiest **teaching through delivery**: pairing, solid documentation, PRs that explain *why*, and turning odd production incidents into durable team knowledge.
 
-### Operating manual
+## Working style
 
-| Mode | Status |
-|------|--------|
-| **Professional** | On — deadlines, SLAs, and your sanity respected |
-| **Humour** | On — dry, occasional, never in the error logs |
-| **Teaching** | On — ask me *why* something is built a certain way |
-| **Futuristic** | Aspiring — shipping today, sketching what’s next |
+| | |
+|:---|:---|
+| **Delivery** | Scope, timelines, and production risk treated seriously |
+| **Tone** | Light when appropriate — never where it obscures severity or logs |
+| **Collaboration** | Ask *why*; I’ll trade opinions for data and tradeoffs |
+| **Direction** | Pragmatic today; curious about what’s next in the platform |
 
-### Stack & tools
+## Stack & tools
 
 <p>
-  <img alt="Java" src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" />
-  <img alt="Python" src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img alt="Spring" src="https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white" />
-  <img alt="Git" src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
-  <img alt="VS Code" src="https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white" />
-  <img alt="HTML" src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
-  <img alt="CSS" src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
-  <img alt="Firebase" src="https://img.shields.io/badge/Firebase-039BE5?style=for-the-badge&logo=Firebase&logoColor=white" />
+  <img alt="Java" src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white" />
+  <img alt="Python" src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
+  <img alt="Spring" src="https://img.shields.io/badge/Spring-6DB33F?style=flat-square&logo=spring&logoColor=white" />
+  <img alt="Git" src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" />
+  <img alt="VS Code" src="https://img.shields.io/badge/VS%20Code-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white" />
+  <img alt="HTML5" src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" />
+  <img alt="CSS3" src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" />
+  <img alt="Firebase" src="https://img.shields.io/badge/Firebase-039BE5?style=flat-square&logo=firebase&logoColor=white" />
 </p>
 
-<sub>Yes, I still touch the front of the stack when the situation calls for it. No, I won’t center a `div` without at least one philosophical debate.</sub>
+<sub>Frontend when needed. Centering a <code>div</code> still negotiable — terms and conditions may apply.</sub>
 
 ---
 
-### GitHub pulse
+## GitHub activity
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=subhramonyu&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&title_color=58A6FF&icon_color=79C0FF" alt="GitHub stats" />
-  <img height="165" src="https://streak-stats.demolab.com/?user=subhramonyu&theme=tokyonight&hide_border=true" alt="GitHub streak" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=subhramonyu&show_icons=true&theme=tokyonight&hide_border=true&title_color=58A6FF&icon_color=79C0FF" alt="GitHub statistics" />
+  <img height="165" src="https://streak-stats.demolab.com/?user=subhramonyu&theme=tokyonight&hide_border=true" alt="Contribution streak" />
 </p>
 
+<sub>Stats use GitHub’s public API. Totals reflect public activity; private repos are not included.</sub>
+
 <details>
-<summary><b>Full metrics card</b> <i>(generated by workflow — expand if you dare)</i></summary>
+<summary><strong>Detailed metrics</strong> <em>(SVG generated by repository workflow)</em></summary>
 
 ![Metrics](/github-metrics.svg)
 
@@ -60,28 +62,30 @@ I’ve helped design and deliver **13+** serious applications across different d
 
 ---
 
-### Let’s connect
+## Contact
 
-- **Email:** [subhramonyu.das@gmail.com](mailto:subhramonyu.das@gmail.com)
-- **Site:** [subhramonyu.github.io](https://subhramonyu.github.io)
-- **Social:**  
-  [![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=flat&logo=twitter&logoColor=white)](https://twitter.com/SubhramonyuDas)
-  [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/subhramonyu-das-3123991b8/)
+| | |
+|:---|:---|
+| **Email** | [subhramonyu.das@gmail.com](mailto:subhramonyu.das@gmail.com) |
+| **Site** | [subhramonyu.github.io](https://subhramonyu.github.io) |
+| **Social** | [![X](https://img.shields.io/badge/X-000000?style=flat-square&logo=x&logoColor=white)](https://twitter.com/SubhramonyuDas) [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/subhramonyu-das-3123991b8/) |
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=subhramonyu&label=Profile%20views&color=58a6ff&style=flat" alt="Profile views" />
+  <img src="https://komarev.com/ghpvc/?username=subhramonyu&label=Profile%20views&color=6e7681&style=flat-square" alt="Profile views" />
 </p>
 
 ---
 
 <div align="center">
 
-**Building the boring parts so the exciting parts can happen.**
+**Solid foundations so the interesting problems get the attention they deserve.**
 
-<sub>© 2026 Subhramonyu Das · README crafted with caffeine and questionable optimism</sub>
+<sub>© 2026 Subhramonyu Das · README maintained with care, coffee, and the occasional well-placed joke</sub>
 
-[![Built with love](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
-[![Developers](https://forthebadge.com/images/badges/built-by-developers.svg)](https://forthebadge.com)
-[![Swag](https://forthebadge.com/images/badges/built-with-swag.svg)](https://forthebadge.com)
+<p>
+  <a href="https://forthebadge.com"><img src="https://forthebadge.com/images/badges/built-with-love.svg" alt="Built with love" height="28" /></a>
+  <a href="https://forthebadge.com"><img src="https://forthebadge.com/images/badges/built-by-developers.svg" alt="Built by developers" height="28" /></a>
+  <a href="https://forthebadge.com"><img src="https://forthebadge.com/images/badges/built-with-swag.svg" alt="Built with swag" height="28" /></a>
+</p>
 
 </div>
