@@ -204,7 +204,7 @@ def write_svg(
     repos: int,
     stars: int,
 ) -> None:
-    w, h = 900, 224
+    w, h = 900, 248
     title = "My Git activity"
     subtitle, footer_quip = pick_humor(commits, prs, activity, repos, stars)
 
@@ -222,7 +222,7 @@ def write_svg(
     <g transform="translate({cx},0)" text-anchor="middle" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,Helvetica,Arial,sans-serif">
       <text y="{y_num}" fill="url(#{num_fill})" font-size="{num_size}" font-weight="750">{value}</text>
       <text y="{y_lbl}" fill="#c9d1d9" font-size="12" font-weight="600">{escape(label)}</text>
-      <text y="{y_lbl + 14}" fill="#6e7681" font-size="9.5">{escape(hint)}</text>
+      <text y="{y_lbl + 14}" fill="#7d8590" font-size="9.5">{escape(hint)}</text>
     </g>"""
 
     svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="{w}" height="{h}" viewBox="0 0 {w} {h}">
@@ -270,15 +270,15 @@ def write_svg(
     {col(750, 112, 134, fmt_num(activity), "Total activity", "graph total (issues, reviews, …)", "gAct", 28)}
   </g>
 
-  <line x1="48" y1="162" x2="{w - 48}" y2="162" stroke="#21262d" stroke-width="1"/>
+  <line x1="48" y1="158" x2="{w - 48}" y2="158" stroke="#21262d" stroke-width="1"/>
 
   <g font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,Helvetica,Arial,sans-serif">
-    {col(300, 192, 212, fmt_num(repos), "Public repositories", "combined", "gRepos", 30)}
-    {col(600, 192, 212, fmt_num(stars), "Stars", "owned non-fork repos", "gStars", 30)}
+    {col(300, 176, 196, fmt_num(repos), "Public repositories", "combined", "gRepos", 30)}
+    {col(600, 176, 196, fmt_num(stars), "Stars", "owned non-fork repos", "gStars", 30)}
   </g>
 
-  <text x="{w / 2}" y="{h - 10}" text-anchor="middle" fill="#484f58"
-        font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="8.5">
+  <text x="{w / 2}" y="232" text-anchor="middle" fill="#8b949e"
+        font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="9">
     {escape(f"GitHub Actions · public data · {footer_quip}")}
   </text>
 </svg>
