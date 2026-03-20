@@ -12,7 +12,8 @@ jobs:
     permissions:
       contents: write
     steps:
-      - uses: lowlighter/metrics@latest
+      # Fork includes Projects v2 for Achievements (classic API removed by GitHub). Switch to lowlighter/metrics@latest when merged upstream.
+      - uses: stalomeow/metrics@projects-v2
         with:
           # Your GitHub token
           # The following scopes are required:
