@@ -12,6 +12,38 @@ import urllib.error
 import urllib.request
 from datetime import datetime, timedelta, timezone
 
+# Rotates by UTC day + merged stats so the card refreshes copy when numbers (or the date) change.
+_HUMOR_SUBTITLES = (
+    "Rolling 365 days · the graph is honest; I supply the commits and the coping",
+    "Public metrics only · private panic and prod hotfixes not included",
+    "Green squares won’t pay rent · still oddly validating",
+    "If these look good, tell my keyboard; it did most of the work",
+    "Stats auto-refresh · my sleep schedule still on legacy cron",
+    "Fewer meetings, more meaningful diffs · that’s the dream",
+    "Commit early, push often, blame the linter occasionally",
+    "This window rolls forward · unlike my stash from 2019",
+    "Git never forgets · neither does git reflog (thankfully)",
+    "Shipped via Actions · battle-tested with caffeine and spite",
+    "Merge conflicts build character · or at least patience",
+    "Works on GitHub’s graph · YMMV on localhost after lunch",
+    "Zero deploy Fridays · nonzero deploy anxiety",
+    "Semantic versioning in public · chaotic versioning in branches",
+    "The numbers are rounded · the impostor syndrome is exact",
+)
+
+_HUMOR_FOOTERS = (
+    "robots refresh this; humans refresh the coffee",
+    "no merge conflicts were harmed in this render",
+    "LGTM if you squint at the y-axis",
+    "if it’s green, I’m serene (briefly)",
+    "still more reliable than my weather app",
+    "compiled with hope, linked with habit",
+    "not financial advice; not git advice either",
+    "may your CI be green and your pings few",
+    "hotfix: personality patch pending",
+    "works on my aggregate stats",
+)
+
 DEFAULT_USERS = (
     "subhramonyu",
     "privatefnsventures-maker",
@@ -153,25 +185,28 @@ def escape(s: str) -> str:
     )
 
 
+def pick_humor(
+    commits: int, prs: int, activity: int, repos: int, stars: int
+) -> tuple[str, str]:
+    day = datetime.now(timezone.utc).date().toordinal()
+    salt = commits + prs * 3 + activity + repos * 5 + stars * 11
+    i_sub = (day + salt) % len(_HUMOR_SUBTITLES)
+    i_foot = (day * 17 + salt * 13) % len(_HUMOR_FOOTERS)
+    return _HUMOR_SUBTITLES[i_sub], _HUMOR_FOOTERS[i_foot]
+
+
 def write_svg(
     path: str,
     *,
-    users: list[str],
     commits: int,
     prs: int,
     activity: int,
     repos: int,
     stars: int,
 ) -> None:
-    w, h = 900, 258
-    n = len(users)
-    title = "Combined GitHub activity"
-    line1 = f"{n} profiles merged · rolling 365 days"
-    mid = (n + 1) // 2
-    line_handles_a = " · ".join(f"@{escape(u)}" for u in users[:mid])
-    line_handles_b = " · ".join(f"@{escape(u)}" for u in users[mid:])
-
-    hint_merge = f"sum of {n} profiles · 365d"
+    w, h = 900, 224
+    title = "My Git activity"
+    subtitle, footer_quip = pick_humor(commits, prs, activity, repos, stars)
 
     def col(
         cx: int,
@@ -181,10 +216,11 @@ def write_svg(
         label: str,
         hint: str,
         num_fill: str,
+        num_size: int = 30,
     ) -> str:
         return f"""
     <g transform="translate({cx},0)" text-anchor="middle" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,Helvetica,Arial,sans-serif">
-      <text y="{y_num}" fill="url(#{num_fill})" font-size="30" font-weight="750">{value}</text>
+      <text y="{y_num}" fill="url(#{num_fill})" font-size="{num_size}" font-weight="750">{value}</text>
       <text y="{y_lbl}" fill="#c9d1d9" font-size="12" font-weight="600">{escape(label)}</text>
       <text y="{y_lbl + 14}" fill="#6e7681" font-size="9.5">{escape(hint)}</text>
     </g>"""
@@ -208,9 +244,6 @@ def write_svg(
     <linearGradient id="gRepos" x1="0%" y1="0%" x2="0%" y2="100%">
       <stop offset="0%" style="stop-color:#d8f0ff"/><stop offset="100%" style="stop-color:#388bfd"/>
     </linearGradient>
-    <linearGradient id="gProfiles" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" style="stop-color:#ffe2a8"/><stop offset="100%" style="stop-color:#ffa657"/>
-    </linearGradient>
     <linearGradient id="gStars" x1="0%" y1="0%" x2="0%" y2="100%">
       <stop offset="0%" style="stop-color:#f6ecff"/><stop offset="100%" style="stop-color:#d2a8ff"/>
     </linearGradient>
@@ -223,37 +256,30 @@ def write_svg(
     </filter>
   </defs>
   <rect x="2" y="2" width="{w - 4}" height="{h - 4}" rx="18" ry="18" fill="url(#panel)" stroke="url(#borderGrad)" stroke-width="2" filter="url(#shadow)"/>
-  <text x="{w / 2}" y="32" text-anchor="middle" fill="#f0f6fc"
+  <text x="{w / 2}" y="34" text-anchor="middle" fill="#f0f6fc"
         font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,Helvetica,Arial,sans-serif"
-        font-size="18" font-weight="700" letter-spacing="-0.02em">{escape(title)}</text>
-  <text x="{w / 2}" y="50" text-anchor="middle" fill="#8b949e"
+        font-size="19" font-weight="700" letter-spacing="-0.02em">{escape(title)}</text>
+  <text x="{w / 2}" y="56" text-anchor="middle" fill="#8b949e"
         font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,Helvetica,Arial,sans-serif"
-        font-size="11.5">{escape(line1)}</text>
-  <text x="{w / 2}" y="66" text-anchor="middle" fill="#6e7681"
-        font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,Helvetica,Arial,sans-serif"
-        font-size="10">{line_handles_a}</text>
-  <text x="{w / 2}" y="82" text-anchor="middle" fill="#6e7681"
-        font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,Helvetica,Arial,sans-serif"
-        font-size="10">{line_handles_b}</text>
-  <line x1="32" y1="92" x2="{w - 32}" y2="92" stroke="#30363d" stroke-width="1" stroke-linecap="round"/>
+        font-size="11">{escape(subtitle)}</text>
+  <line x1="32" y1="68" x2="{w - 32}" y2="68" stroke="#30363d" stroke-width="1" stroke-linecap="round"/>
 
   <g font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,Helvetica,Arial,sans-serif">
-    {col(150, 132, 152, fmt_num(commits), "Commits", hint_merge, "gCommits")}
-    {col(450, 132, 152, fmt_num(prs), "Pull requests", "authored · 365d", "gPR")}
-    {col(750, 132, 152, fmt_num(activity), "Total activity", "contribution graph total", "gAct")}
+    {col(150, 108, 134, fmt_num(commits), "Commits", "GitHub-counted · 365d", "gCommits", 36)}
+    {col(450, 108, 134, fmt_num(prs), "Pull requests", "authored · same window", "gPR", 36)}
+    {col(750, 112, 134, fmt_num(activity), "Total activity", "graph total (issues, reviews, …)", "gAct", 28)}
   </g>
 
-  <line x1="48" y1="178" x2="{w - 48}" y2="178" stroke="#21262d" stroke-width="1"/>
+  <line x1="48" y1="162" x2="{w - 48}" y2="162" stroke="#21262d" stroke-width="1"/>
 
   <g font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,Helvetica,Arial,sans-serif">
-    {col(150, 212, 232, fmt_num(repos), "Public repositories", "combined", "gRepos")}
-    {col(450, 212, 232, str(n), "Profiles", "in this merge", "gProfiles")}
-    {col(750, 212, 232, fmt_num(stars), "Stars", "owned non-fork repos", "gStars")}
+    {col(300, 192, 212, fmt_num(repos), "Public repositories", "combined", "gRepos", 30)}
+    {col(600, 192, 212, fmt_num(stars), "Stars", "owned non-fork repos", "gStars", 30)}
   </g>
 
   <text x="{w / 2}" y="{h - 10}" text-anchor="middle" fill="#484f58"
         font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="8.5">
-    Updated by GitHub Actions · public activity only
+    {escape(f"GitHub Actions · public data · {footer_quip}")}
   </text>
 </svg>
 '''
@@ -291,7 +317,6 @@ def main() -> int:
 
     write_svg(
         out,
-        users=users,
         commits=total_cm,
         prs=total_pr,
         activity=total_act,
