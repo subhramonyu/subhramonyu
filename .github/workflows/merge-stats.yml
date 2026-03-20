@@ -1,4 +1,4 @@
-# Merges public stats from PRIMARY + ALT GitHub users into merged-stats.svg
+# Merges public stats from MERGED_GITHUB_USERS (comma-separated) into merged-stats.svg
 name: Merged GitHub stats
 
 on:
@@ -32,8 +32,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           MERGE_STATS_TOKEN: ${{ secrets.MERGE_STATS_TOKEN }}
-          PRIMARY_GH_USER: subhramonyu
-          ALT_GITHUB_USERNAME: ${{ vars.ALT_GITHUB_USERNAME }}
+          MERGED_GITHUB_USERS: ${{ vars.MERGED_GITHUB_USERS }}
         run: python scripts/generate_merged_stats.py
 
       - name: Commit and push
