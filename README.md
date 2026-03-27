@@ -1,10 +1,21 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=26&duration=2800&pause=1000&color=58A6FF&center=true&vCenter=true&multiline=true&width=720&height=150&lines=Hi%2C+I%27m+Subhramonyu;Backend+engineer+%C2%B7+India+%C2%B7+Java+%26+Python;I+build+APIs+and+systems+that+stay+up+after+3+a.m.;Always+learning+%E2%80%94+happy+to+share+what+I+figure+out" alt="Introduction — Subhramonyu, backend engineer" />
+<table align="center" cellpadding="0" cellspacing="0">
+<tr>
+<td valign="middle">
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=32&duration=2800&pause=0&color=FBBF24&center=true&vCenter=true&repeat=false&width=420&height=90&lines=Hi+There" alt="Hi There" />
+</td>
+<td valign="middle" style="padding-left:6px">
+<img src="images/wave-hand.svg" width="32" height="32" alt="Waving hand" />
+</td>
+</tr>
+</table>
 
-**Java · Python · APIs · reliability-minded backend work**
+<br />
 
-<sub><em>If it worked on the first try, I’d check whether I’m awake.</em></sub>
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=20&duration=4500&pause=500&color=58A6FF&center=true&vCenter=true&multiline=true&repeat=false&width=920&height=220&lines=I+am+Subhramonyu%2C+a+tech+geek+based+out+of+India.%3BProd+is+my+favourite+environment+%E2%80%94+staging+is+just+very+committed+cosplay." alt="Intro and prod vs staging — lines accumulate and stay" />
+
+<p><strong>Tech Geek</strong> · <strong>India</strong> · Java · Python · Spring · Django · APIs · DevOps · CI/CD · automation · <strong>production first</strong></p>
 
 </div>
 
@@ -12,17 +23,19 @@
 
 ## Overview
 
-Backend engineer with **7+ years** delivering and operating **enterprise applications** in **Java** and **Python**, from lean teams to large organizations. I focus on **clear service boundaries**, **predictable reliability**, and **maintainable code** — the kind the next engineer can extend without a séance.
+**Tech Geek** based in **India** — **production first**, not demo first. I care how things behave under real load, real users, and real Mondays. **12+ years** of shipping work that has to hold up after the handoff: clear ownership, honest automation, and systems the next person can reason about — without needing a séance.
 
 ## How I work
 
-I’ve contributed to **13+** production-grade applications across different domains — environments where *“works on my machine”* isn’t a release criterion. I’m happiest **teaching through delivery**: pairing, solid documentation, PRs that explain *why*, and turning odd production incidents into durable team knowledge.
+I’ve shipped **30+** projects across production-grade systems in different domains — places where *“works on my machine”* isn’t enough. I’m happiest **teaching through delivery**: pairing, solid documentation, PRs that explain *why*, turning incidents into durable team knowledge, and keeping **signals in prod** honest enough that releases stay boring.
 
 ## Working style
 
 | | |
 |:---|:---|
+| **Mindset** | **Tech Geek** energy — depth-first, evidence-led, **production**-disciplined |
 | **Delivery** | Scope, timelines, and production risk treated seriously |
+| **Quality** | Automated checks in CI; logs and metrics when something still slips through |
 | **Tone** | Light when appropriate — never where it obscures severity or logs |
 | **Collaboration** | Ask *why*; I’ll trade opinions for data and tradeoffs |
 | **Direction** | Pragmatic today; curious about what’s next in the platform |
@@ -33,7 +46,9 @@ I’ve contributed to **13+** production-grade applications across different dom
   <img alt="Java" src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white" />
   <img alt="Python" src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
   <img alt="Spring" src="https://img.shields.io/badge/Spring-6DB33F?style=flat-square&logo=spring&logoColor=white" />
+  <img alt="Docker" src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" />
   <img alt="Git" src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" />
+  <img alt="Jenkins" src="https://img.shields.io/badge/Jenkins-D24939?style=flat-square&logo=jenkins&logoColor=white" />
   <img alt="VS Code" src="https://img.shields.io/badge/VS%20Code-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white" />
   <img alt="HTML5" src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" />
   <img alt="CSS3" src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" />
