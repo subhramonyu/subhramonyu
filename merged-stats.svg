@@ -40,19 +40,19 @@
   <g font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,Helvetica,Arial,sans-serif">
     
     <g transform="translate(150,0)" text-anchor="middle" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,Helvetica,Arial,sans-serif">
-      <text y="108" fill="url(#gCommits)" font-size="36" font-weight="750">226</text>
+      <text y="108" fill="url(#gCommits)" font-size="36" font-weight="750">230</text>
       <text y="134" fill="#c9d1d9" font-size="12" font-weight="600">Commits</text>
       <text y="148" fill="#7d8590" font-size="9.5">GitHub-counted · 365d</text>
     </g>
     
     <g transform="translate(450,0)" text-anchor="middle" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,Helvetica,Arial,sans-serif">
-      <text y="108" fill="url(#gPR)" font-size="36" font-weight="750">91</text>
+      <text y="108" fill="url(#gPR)" font-size="36" font-weight="750">92</text>
       <text y="134" fill="#c9d1d9" font-size="12" font-weight="600">Pull requests</text>
       <text y="148" fill="#7d8590" font-size="9.5">authored · same window</text>
     </g>
     
     <g transform="translate(750,0)" text-anchor="middle" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,Helvetica,Arial,sans-serif">
-      <text y="112" fill="url(#gAct)" font-size="28" font-weight="750">323</text>
+      <text y="112" fill="url(#gAct)" font-size="28" font-weight="750">326</text>
       <text y="134" fill="#c9d1d9" font-size="12" font-weight="600">Total activity</text>
       <text y="148" fill="#7d8590" font-size="9.5">graph total (issues, reviews, …)</text>
     </g>
@@ -63,7 +63,7 @@
   <g font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,Helvetica,Arial,sans-serif">
     
     <g transform="translate(300,0)" text-anchor="middle" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,Helvetica,Arial,sans-serif">
-      <text y="176" fill="url(#gRepos)" font-size="30" font-weight="750">35</text>
+      <text y="176" fill="url(#gRepos)" font-size="30" font-weight="750">33</text>
       <text y="196" fill="#c9d1d9" font-size="12" font-weight="600">Public repositories</text>
       <text y="210" fill="#7d8590" font-size="9.5">combined</text>
     </g>
