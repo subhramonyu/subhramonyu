@@ -40,19 +40,19 @@
   <g font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,Helvetica,Arial,sans-serif">
     
     <g transform="translate(150,0)" text-anchor="middle" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,Helvetica,Arial,sans-serif">
-      <text y="108" fill="url(#gCommits)" font-size="36" font-weight="750">546</text>
+      <text y="108" fill="url(#gCommits)" font-size="36" font-weight="750">549</text>
       <text y="134" fill="#c9d1d9" font-size="12" font-weight="600">Commits</text>
       <text y="148" fill="#7d8590" font-size="9.5">GitHub-counted · 365d</text>
     </g>
     
     <g transform="translate(450,0)" text-anchor="middle" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,Helvetica,Arial,sans-serif">
-      <text y="108" fill="url(#gPR)" font-size="36" font-weight="750">255</text>
+      <text y="108" fill="url(#gPR)" font-size="36" font-weight="750">257</text>
       <text y="134" fill="#c9d1d9" font-size="12" font-weight="600">Pull requests</text>
       <text y="148" fill="#7d8590" font-size="9.5">authored · same window</text>
     </g>
     
     <g transform="translate(750,0)" text-anchor="middle" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,Helvetica,Arial,sans-serif">
-      <text y="112" fill="url(#gAct)" font-size="28" font-weight="750">805</text>
+      <text y="112" fill="url(#gAct)" font-size="28" font-weight="750">810</text>
       <text y="134" fill="#c9d1d9" font-size="12" font-weight="600">Total activity</text>
       <text y="148" fill="#7d8590" font-size="9.5">graph total (issues, reviews, …)</text>
     </g>
@@ -77,6 +77,6 @@
 
   <text x="450.0" y="232" text-anchor="middle" fill="#8b949e"
         font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="9">
-    GitHub Actions · public data · works on my aggregate stats
+    GitHub Actions · public data · hotfix: personality patch pending
   </text>
 </svg>
